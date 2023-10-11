@@ -1,0 +1,73 @@
+/* Mobile Phones */
+@media (max-width: 480px) {
+    /* Đưa ra các CSS styles dành cho màn hình có chiều rộng tối đa là 480px */
+    .header-admin-all {
+        display: none;
+    }
+    .cart {
+        margin-left: 0;
+    }
+    .log_in-header {
+        width: 100% !important;
+        text-align: center;
+    }
+    .header-admin {
+        min-height: 90px !important;
+    }
+    .frame-admin {
+        max-height: 90px !important;
+    }
+    .info-frame-admin span {
+        display: -webkit-box;
+        -webkit-line-clamp: 3; /* Số dòng hiển thị */
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis; /* Hiển thị dấu ... */
+    }
+    .bgr-admin-header {
+        width: auto;
+        margin-left: 0 !important;
+    }
+    .block2-header-admin {
+        padding-right: 20px;
+    }
+    .block1-header-admin {
+        padding-left: 20px !important;
+    }
+    .table-control-header-admin {
+        left: -60px;
+        min-width: auto;
+        width: 240px;
+        min-height: 150px;
+    }
+    .header-table-control_header-admin {
+        padding: 10px 0px;
+    }
+    .element-control_header-table a {
+        padding: 10px 0px;
+    }
+}
+
+/* Tablets */
+@media (min-width: 481px) and (max-width: 850px) {
+    /* Đưa ra các CSS styles dành cho màn hình có chiều rộng từ 481px đến 768px */
+    .header-admin-mobile {
+        display: none;
+    }
+}
+
+/* Laptops */
+@media (min-width: 851px) and (max-width: 1366px) {
+    /* Đưa ra các CSS styles dành cho màn hình có chiều rộng từ 769px đến 1366px */
+    .header-admin-mobile {
+        display: none;
+    }
+}
+
+/* Desktops */
+@media (min-width: 1367px) {
+    /* Đưa ra các CSS styles dành cho màn hình có chiều rộng từ 1367px trở lên */
+    .header-admin-mobile {
+        display: none;
+    }
+}
